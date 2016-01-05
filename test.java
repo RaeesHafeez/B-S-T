@@ -32,6 +32,15 @@ public class TestBST extends TestCase{
          systemOut().clearHistory();
    }
    
+
+public bool testIsEmpty(){
+
+if (root==null)
+assertEquals("1",bst.IsEmpty());
+
+}
+
+
 public bool testsearch(){
 
 int r;  
